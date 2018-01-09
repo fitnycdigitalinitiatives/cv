@@ -1,0 +1,113 @@
+body {
+  padding-top: 56px;
+}
+.btn.btn-arrow {
+  border-radius: 50%;
+  padding: .5rem;
+  height: 4rem;
+  width: 4rem;
+}
+.btn.btn-arrow:not([disabled]):not(.disabled):active {
+  box-shadow: initial;
+}
+.btn-arrow i {
+  font-size: 3rem;
+}
+:target:before {
+  display: block;
+  content: " ";
+  margin-top: -56px;
+  height: 56px;
+  visibility: hidden;
+  pointer-events: none;
+}
+#splash.jumbotron {
+  height: calc(100vh - 56px);
+  background-color: #fff;
+  position: relative;
+}
+#splash.jumbotron .container {
+  height: 100%;
+}
+#splash.jumbotron .container .row {
+  height: 100%;
+}
+#splash.jumbotron h1 {
+  background-image: linear-gradient(
+	      rgba(255, 255, 255, 0.85),
+	      rgba(255, 255, 255, 0.85)
+	    ), url('images/fit_logo.png');
+  background-size: auto 45%;
+  background-repeat: no-repeat;
+  background-position: left center;
+  margin-left: -7%;
+  padding-left: 7%;
+}
+#overhang.jumbotron {
+  padding: 0;
+}
+#overhang.jumbotron img {
+  max-height: 35vh;
+}
+#splash .btn-arrow {
+  position: absolute;
+  bottom: -1rem;
+  left: calc(50% - 2rem);
+}
+.jumbotron .display-2 {
+  font-size: 1.5rem;
+  margin-top: -4rem;
+}
+.jumbotron .display-3 {
+  font-size: 1.3rem;
+}
+.section {
+  margin-bottom: 3rem;
+}
+.sub-section {
+  margin-top: 2rem;
+}
+.sub-section h5 {
+  margin-top: 2rem;
+}
+.sub-section h6 {
+  margin-left: .75rem;
+}
+.sub-section img {
+  padding: 1rem;
+}
+footer {
+  background-color:
+}
+@media (min-width: 576px) {
+  .jumbotron .display-2 {
+    font-size: 2.3rem;
+  }
+  .jumbotron .display-3 {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .jumbotron .display-2 {
+    font-size: 3.2rem;
+  }
+  .jumbotron .display-3 {
+    font-size: 2.7rem;
+  }
+}
+@media (min-width: 992px) {
+  .jumbotron .display-2 {
+    font-size: 4.4rem;
+  }
+  .jumbotron .display-3 {
+    font-size: 3.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .jumbotron .display-2 {
+    font-size: 5.5rem;
+  }
+  .jumbotron .display-3 {
+    font-size: 4.5rem;
+  }
+}

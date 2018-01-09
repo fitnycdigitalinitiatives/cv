@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Tenure &amp; Promotion Portfolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!-- Cusotm CSS -->
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body data-spy="scroll" data-target="#navbar-scroll">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="navbar-scroll">
+      <a class="navbar-brand" href="#"><img src="images/fit_logo_retina.png" width="30" height="30" class="d-inline-block align-top" alt=""> T&amp;P Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#digital">Digital Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service">Service to the College</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#professional">Professional Development</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#future">Future Goals</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="jumbotron" id="splash">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col">
+            <h1 class="display-2">Joseph Anderson</br>Tenure &amp; Promotion Portfolio</h1>
+          </div>
+        </div>
+      </div>
+      <a class="btn btn-light btn-arrow" href="#overhang" role="button"><i class="material-icons">keyboard_arrow_down</i></a>
+    </div>
+    <div class="jumbotron" id="overhang">
+      <div class="row no-gutters">
+        <div class="col-4">
+          <img src="images/portrait-bg-3.jpg" class="img-fluid" alt="Joseph Anderson">
+        </div>
+        <div class="col-8 align-self-center">
+          <h2 class="display-3">Digital Initiatives Librarian</br>Gladys Marcus Library</h2>
+        </div>
+      </div>
+    </div>
+    <main role="main" class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="section" id="digital">
+            <h3>Digital Projects</h3>
+            <p class="lead">As a primary part of my duties as the Digital Initiatives Librarian, I have undertaken numerous digital projects with the objective of delivering FIT Library resources in new ways and to new audiences.</p>
+            <p>These projects also seek to maintain organization and managment, as well as long-term preservation, of our growing array of digital content. In addition to overseeing the practical aspects of the digital content lifecycle, I have also sought to create user interfaces that reflect the creativity of the FIT brand and provide users with novel ways of discovering content.</p>
+            <p>To develop these projects, I have collaborated with colleagues across the Library and the College. I have worked closely FIT IT to set up servers to host and maintain these projects. I have worked with a variety of open-source applications and numerous coding languages, which has created less reliance on costly third-party hosting. When working with teams, I have utilized project managment tools to create more efficient workflows and accountability. Throughout, a growing web presence has been built for the FIT Library and with each new project a testament that we can continue to grow further.</p>
+            <div class="sub-section">
+              <h4>SPARC Digital</br><a target="_blank" href="https://sparcdigital.fitnyc.edu"><small class="text-muted">sparcdigital.fitnyc.edu</small></a></h4>
+              <a target="_blank" href="https://sparcdigital.fitnyc.edu"><img src="images/sparc_digital_homepage.jpg" class="img-fluid" alt="SPARC Digital Homepage"></a>
+              <p class="lead">"SPARC Digital is a platform created by the FIT Library's Special Collections and College Archives to showcase the rare and unique materials from our collections that have been digitized. Our goal is to make our collections more widely available online to the FIT community and the general public."</p>
+              <div class="entry">
+                <p>Background: Previous to the launch of SPARC Digital, the FIT Library's Special Collections and College Archives did not have a dedicated platform for it digitized materials. A small portion of their digitized images (over 2000 images) had been uploaded to FITDIL, the library's general purpose digital image library. FITDIL, however, is primarily intended for usage within the FIT community, and it's general purpose nature limits its ability to showcase the uniqueness of SPARC's materials.</p>
+                <p>SPARC Digital was thus conceived as a platform that would not only showcase digitized materials, but also allow us to tell the stories of these materials through online exhibitions. In addition, we wanted to offers users the ability to navigate these collections by color, which is a feature that is being seen more and more in online collection. Finally, we wanted to design a site and user experience that reflected the elegant aesthetics of the materials.</p>
+                <ul>
+                  <li>Oversaw launch of SPARC Digital on 10/2/2017 with nearly 2500 images and 2 online exhibitions</li>
+                  <li>Created custom 'feed' to feature "Image of the Week" on FIT Newsroom</li>
+                  <li>Updated underlying code to be compliant with accessibility standards</li>
+                  <li>Created <a target="_blank" href="images/sparc_flyer.jpg">promotional flyer</a> for publicizing launch of website on social media</li>
+                  <li>Added capability to download high resolution images of Public Domain items</li>
+                  <li>Implemented typeahead autocomplete search functionality</li>
+                  <li>Joined project team for Decoded Dress: The Fashion History Timeline, a proposed NEH Grant led by Justine De Young of the History of Art Department to digitize thousands of fashion plates to be included on SPARC Digital</li>
+                  <li>Implemented color search and browse functionality</li>
+                  <li>Implemented faceted searching using Solr server (<a href="#solr">see below</a>)</li>
+                  <li>Implemented Open Seadragon image viewer</li>
+                  <li>Integrated Omeka application with FIT's FITDIL (built on MDID3); <a href="#presentations">see accepted presentation below</a></li>
+                  <li>Built custom Omeka theme using Bootstrap design framework</li>
+                  <li>Developed Python code to perform color analysis on nearly 2,500 digitized items from SPARC collection</li>
+                </ul>
+              </div>
+            </div>
+            <div class="sub-section" id="aod">
+              <h4>Archive on Demand</br><a target="_blank" href="https://archiveondemand.fitnyc.edu"><small class="text-muted">archiveondemand.fitnyc.edu</small></a></h4>
+              <a target="_blank" href="https://archiveondemand.fitnyc.edu"><img src="images/aod_homepage.jpg" class="img-fluid" alt="Archive on Demand Homepage"></a>
+              <p class="lead">"Archive on Demand is a new online video platform created by the FIT Library. Our goal is to make videos of lectures and events that occur on campus available online to the FIT community and the general public. This online video resource is a wonderful way to increase access to some of the lectures, events, exhibitions, and instruction happening at FIT and share them with a wider audience."</p>
+              <div class="entry">
+                <p>Background: FIT holds numerous lectures, events and exhbitions that have been recorded over the years, and in practice these videos are shared with the FIT Community and general public through various YouTube channels held by a variety of departments across the College. The idea behind Archive on Demand is to curate and aggregate these videos onto a single platform. In addition to being a single point of access for users, Archive on Demand also serves as a means of organizing, describing, and preserving the College's video assets. In addition, with Archive on Demand as point of distribution, the site has been instrumental in reshaping and improving video workflows on campus.</p>
+                <ul>
+                  <li>Oversaw relaunch and total redesign of Archive on Demand (4/2016), moving from Wordpress to Omeka application</li>
+                  <li>Have added over 200 additional videos since relaunching</li>
+                  <li>Worked to create OAI-PMH link between Archive on Demand and WorldCat Digital Collection Gateway to automate the addition of bibliographic records for AOD videos to WorldCat</li>
+                  <li>Produced Archive on Demand <a target="_blank" href="https://drive.google.com/file/d/0Bzw0YfImyBTQaHIxYllqRTJ5dm8/view?usp=sharing">promotional video</a> and business cards for Convocation, 2016</li>
+                  <li>Developed guidelines for promotion of video content on social media</li>
+                  <li>Developed new metadata guidelines</li>
+                  <li>Undertook project to digitize vintage FIT instructional videos, e.g. <a target="_blank" href="https://archiveondemand.fitnyc.edu/items/browse?search=&advanced%5B0%5D%5Belement_id%5D=70&advanced%5B0%5D%5Bterms%5D=Methods+of+Basic+Draping&advanced%5B0%5D%5Btype%5D=is+exactly">"Methods of Basic Draping" (1982)</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="sub-section" id="solr">
+              <h4>Solr</h4>
+              <p class="lead">"Solr is highly reliable, scalable and fault tolerant, providing distributed indexing, replication and load-balanced querying, automated failover and recovery, centralized configuration and more. Solr powers the search and navigation features of many of the world's largest internet sites."–<a target="_blank" href="http://lucene.apache.org/solr/">lucene.apache.org/solr/</a></p>
+              <div class="entry">
+                <p>Background: both SPARC Digital and Archive on Demand are built with the application Omeka, and while this application offers many advantages for managing digital collections, it is lacking in its search functionality. Using a plugin for this application, we are able to integrate the search platform, Solr, into these sites. To do so, I worked closely with IT to set up a dedicated Solr server. In addition, I customized the plugin to work with the most up-to-date version of the Solr application as well to work best with our particular sites. Now our sites have the ability to search with relevance ranking and to return faceted results, a minumum standard for today's user.</p>
+                <ul>
+                  <li>Server launched 8/2017</li>
+                  <li>Patched server with critical security fix</li>
+                </ul>
+              </div>
+            </div>
+            <div class="sub-section">
+              <h4>FIT Archaic Bannerstone Project</br><small class="text-muted">In Development: planned launch in Spring 2018</small></h4>
+              <a target="_blank" href="#"><img src="images/bannerstone.png" class="img-fluid" alt="Bannerstone Project Homepage"></a>
+              <p class="lead">"The FIT Bannerstone Project seeks to establish a unique, extensive repository of over 600 images taken by FIT Professor Anna Blume of Archaic Native American Bannerstones currently in the collection of the American Museum of Natural History. In addition to being a searchable repository of images, this site will provide researchers and the general public with basic information on Bannerstones. Once the project is established we will seek to add Bannerstone images from other museum collections."</p>
+              <div class="entry">
+                <p>Background: Based on the several digital projects that I have worked on at FIT, I was approached by Professor Anna Blume to work on a collaborative digital humanties project between members of the Library and the History of Art Department. Professor Blume has conducted significant research into Native American bannerstones, and seeks to share the results with her peers and general public in the spirit of Open Access. When launched, this site will allow users not only to browse and search the content, but to download full resolution images and research data.</p>
+              </div>
+            </div>
+            <div class="sub-section">
+              <h4>SPARC Connect</br><a target="_blank" href="https://atom-sparc.fitnyc.edu/"><small class="text-muted">atom-sparc.fitnyc.edu</small></a></h4>
+              <a target="_blank" href="https://atom-sparc.fitnyc.edu/"><img src="images/image.big.png" class="img-fluid" alt="SPARC Connect Homepage"></a>
+              <p class="lead">"SPARC Connect is an online database (created through a fully web based archival description application called AtoM, which is an acronym for Access to Memory) of archival holdings, including documents, photographs, and digital objects, at the Fashion Institute of Technology, Gladys Marcus Library, Special Collections & College Archives."</p>
+              <div class="entry">
+                <p>Background: With SPARC Connect, I was not involved with the initial conception and planning as I have been in other digital projects. The Special Collections and College Archives needed an online database to organize its archival holdings (previously, this information has been documented on spreadsheets), and Atom, an application hosted by a third-party, was selected for this purpose. It was at this point that I became involved to customize the site's default theme and user interface to better reflect the FIT brand. After completing design and working with the host, Artefactual Systems, to implement the theme, managment of the site has been taken fully over by staff of SPARC, with the occasional cosultation of myself to troubleshoot.</p>
+              </div>
+              <ul>
+                <li>SPARC Connect launched, 3/2017</li>
+                <li>Trained new SPARC associate on Atom system</li>
+                <li>Designed custom Atom themes; updated for new version of Atom</li>
+                <li>Updated and transfered finding aids to Atom mapping and ingested into system</li>
+              </ul>
+            </div>
+            <div class="sub-section">
+              <h4>Web Archiving</h4>
+              <div class="entry">
+                <p>Background: Web archiving is a developing practice in the archives and library profession that involves the collection and preservation of web pages. Whereas traditional media are generally static, web archiving poses the challenge of dealing with materials that are highly dynamic. Along with several colleagues, we have led the effort to begin to archive FIT's web presence, exploring the tools <a target="_blank" href="https://archive-it.org/">Archive-It</a> and <a target="_blank" href="https://webrecorder.io/">Webrecorder</a>.</p>
+              </div>
+              <ul>
+                <li>Archive-It Demo, 8/2016, 9/2016</li>
+                <li>Webrecorder Presentation, 1/2018</li>
+                <li>Began weekly archiving of the FIT homepage</li>
+              </ul>
+            </div>
+            <div class="sub-section" id="forecasts">
+              <h4>Forecast Digitization Project</br><small class="text-muted">Withdrawn</small></h4>
+              <img src="images/forecast.jpg" class="img-fluid" alt="Forecast Page">
+              <div class="entry">
+                <p>Background: A team was formed 2016 to explore the feasibility of digitizing the library's <a target="_blank" href="http://fitnyc.libguides.com/forecastcollection">Historical Forecast Collection</a>. The team met for several months, pursuing several strategies, scanning sample forecasts, and developing a prototype website, but eventually it was decided that the project was not feasible at this time. There is still a possibility that parts of this project will form the basis of the online exhibition for SPARC Digital.</p>
+              </div>
+            </div>
+          </div>
+          <div class="section" id="service">
+            <h3>Service to the College</h3>
+            <p class="lead">As an adjunct faculty member, I serve the Library and the College by taking part in various committees, working groups, and teams, as well as being an active member of the department, Acquisitions and Metadata Services, that I work in. In this capacity, I have worked with colleagues in various deparments across the Library and College, and have contributed my expertise to areas often outside of the direct focus of my position as Digital Initiatives Librarian.</p>
+            <div class="sub-section">
+              <h4>Library-Wide Service</h4>
+              <div class="entry">
+                <h5>Library teams</h5>
+                  <h6>Acquisitions and Metadata Services</h6>
+                  <ul>
+                    <li>Developed new workflows for ingesting e-book records into the library’s catalog</li>
+                    <li>
+                      Worked with LTUS to fix javascript problem in library’s dedicated OPAC kiosks
+                    </li>
+                    <li>
+                      Worked with OLIS for several improvements to the OPAC search index
+                    </li>
+                    <li>
+                      Developed communities and collections on the SUNY DSpace platform to accommodate the graduate programs that require students to present group capstone projects rather than traditional theses, the former of which cannot be properly stored with ProQuest
+                    </li>
+                    <li>
+                      Developed workflow to use ProQuest metadata to create catalog records, rather than create them from scratch
+                    </li>
+                    <li>
+                      Worked with OLIS to implement a PURL (permanent URL) feature in StyleCat, a feature eventually adopted by all SUNY Library OPAC’s
+                    </li>
+                    <li>
+                      Administrator for ProQuest ETD portal, a new service facilitating electronic submission, review, and publication of all Graduate School theses
+                    </li>
+                  </ul>
+                  <h6>Archive on Demand</h6>
+                    <ul>
+                      <li>See <a href="#aod">above</a> for accomplishments on this team</li>
+                    </ul>
+                  <h6>Collection Development</h6>
+                    <ul>
+                      <li>Created <a target="_blank" href="https://infogram.com/budget-cuts-1gk92e6kvl73m16">data visualizations</a> for analysis of library database usage</li>
+                    </ul>
+                  <h6>LibGuides</h6>
+                  <ul>
+                    <li>Developed <a target="_blank" href="http://fitnyc.libguides.com/film">LibGuide</a> for Film and Media Program</li>
+                    <li>Developed <a target="_blank" href="http://fitnyc.libguides.com/toy">LibGuide</a> for Toy Design Program</li>
+                  </ul>
+                  <h6>FITDIL</h6>
+                  <ul>
+                    <li>Worked with team to create prototypes for 360° images (<a target="_blank" href="https://fitnycdigitalinitiatives.github.io/fitdil_spinner/">ex. 1</a>, <a target="_blank" href="https://fitdil.fitnyc.edu/viewers/gifviewer/101751/?next=/data/record/101751/test-gif-2/">ex. 2</a>).</li>
+                    <li>Worked with FITDIL team to successfully relaunch <a target="_blank" href="https://fitdil.fitnyc.edu/">FITDIL</a> with new version of MDID3</li>
+                    <li>Worked with FITDIL group to develop workflows to digitize collection of fashion runway slides</li>
+                    <li>
+                      Investigated copyright status of runway slides
+                    </li>
+                  </ul>
+                  <h6>Digital Initiatives Working Group <br /><small class="text-muted">Chairperson</small></h6>
+                  <ul>
+                    <li>
+                      Worked to coordinate digital initiatives across the various departments of the library
+                    </li>
+                  </ul>
+                  <h6>Library Professional Development Day <br /><small class="text-muted">2015, 2016</small></h6>
+                  <ul>
+                    <li>
+                      Served as core team member to organize the 2016 Library Professional Development Day
+                    </li>
+                    <li>
+                      Designed 2016 event <a target="_blank" href="images/lppd.jpg">poster/flyer</a>.
+                    </li>
+                  </ul>
+                  <h6>Forecast Digitization Working Group <br /><small class="text-muted">Now Defunct</small></h6>
+                  <ul>
+                    <li>See <a href="#forecasts">above</a> for accomplishments on this team</li>
+                  </ul>
+                  <h6>Love Your Library <br /><small class="text-muted">No longer serving</small></h6>
+                  <h6>Social Media <br /><small class="text-muted">No longer serving</small></h6>
+                  <h6>Records <br /><small class="text-muted">No longer serving</small></h6>
+                <h5>Search Committees</h5>
+                  <h6>SPARC Associate<br /><small class="text-muted">Summer 2017</small></h6>
+                  <h6>Head of Reference and Instructional Services<br /><small class="text-muted">Fall 2017-Winter 2018</small></h6>
+                <h5>Library Liaison</h5>
+                  <h6>Toy Design Department</h6>
+                  <ul>
+                    <li>
+                      Developed <a target="_blank" href="http://fitnyc.libguides.com/toy">LibGuide</a> for Toy Design Program
+                    </li>
+                    <li>
+                      Ordered Toy Design books for the Library collection
+                    </li>
+                  </ul>
+                  <h6>Sustainable Interior Environments Graduate Program<br /><small class="text-muted">Now Defunct</small></h6>
+                  <ul>
+                    <li>
+                      Ordered Sustainable Design books for the Library collection
+                    </li>
+                  </ul>
+                <h5>Library Outreach</h5>
+                <ul>
+                  <li>Represented the Library at the Academic Resources Fair as part of Orientation, Fall 2017</li>
+                  <li>Participated in Library Community Session as part of Orientation Week, Spring 2017</li>
+                </ul>
+              </div>
+            </div>
+            <div class="sub-section">
+              <h4>College-Wide Service</h4>
+              <div class="entry">
+                <h5>FIT teams</h5>
+                  <h6>Video Task Force</h6>
+                  <ul>
+                    <li>
+                      Working to develop workflow to make videos accessiblity-compliant (i.e. includes captioning)
+                    </li>
+                    <li>
+                      Developed model for organizing and maintaining FIT’s video resources until a digital asset management system can be implemented
+                    </li>
+                    <li>
+                      Assisted with development of a college-wide video request form, with focus on integrating metadata collection into the form
+                    </li>
+                  </ul>
+                  <h6>DAM Working Group<br /><small class="text-muted">Now Defunct</small></h6>
+                  <ul>
+                    <li>
+                      Working Group developed proposal to FIT Administration to begin process to implement DAM solution
+                    </li>
+                  </ul>
+                <h5>Faculty Senate Committees</h5>
+                  <h6>Instructional Technology<br /><small class="text-muted">2016-2018</small></h6>
+                  <ul>
+                    <li>Committee developed guidelines for new Faculty Research Space</li>
+                    <li>Developed prototype website for Instructional Technology Committee project using Wordpress platform</li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+          <div class="section" id="professional">
+            <h3>Professional Development</h3>
+            <p class="lead">As a library professional, I take advantage of many of the conferences and workshops offered in New York City, as well attending national conferences when possible. I have given several presentations in the Library on projects I have worked on, and as my body of work develops, I plan on presenting at outside conferences. In addition, as member of the online community, I have contributed to my field through code repositories and listservs.</p>
+            <div class="sub-section">
+              <h4>Attended</h4>
+              <div class="entry">
+                <ul>
+                  <li><a target="_blank" href="https://www.eventbrite.com/e/the-universal-elements-of-good-design-tickets-36519652263#">Universal Elements of Good Design</a>, 12/4/2017, METRO NYC</li>
+                  <li><a target="_blank" href="http://2017.code4lib.org/">Code4Lib 2017 Conference</a>, 3/7-3/9/2016, Virtual</li>
+                  <li>Spring Convocation, 1/26/17</li>
+                  <li><a target="_blank" href="https://www.eventbrite.com/e/metros-2017-annual-conference-tickets-29822896085#">METRO's 2017 Annual Conference</a>, 1/11/2017, NYU</li>
+                  <li>Archive-IT Webinar/Demo, 8/18/2016 & 9/29/2016</li>
+                  <li>Fall Convocation, 8/22/2016</li>
+                  <li><a target="_blank" href="https://www.eventbrite.com/e/digital-preservation-at-rhizome-an-arlisna-new-york-chapter-and-metro-event-tickets-24816153784?#">Digital Preservation at Rhizome: An ARLIS/NA New York Chapter and METRO Event</a>, 5/19/2016, New Museum NYC</li>
+                  <li>ArtStor Copyright Webinar, 5/18/2016</li>
+                  <li><a target="_blank" href="http://iiif.io/event/2016/newyork/">IIIF Conference</a>, 5/10/2016, MOMA NYC</li>
+                  <li><a target="_blank" href="https://www.eventbrite.com/e/code4libnyc-tickets-21090794133#">Code4LibNYC Meeting</a>, 3/29/2016, METRO NYC</li>
+                  <li><a target="_blank" href="http://2016.code4lib.org/">Code4Lib 2016 Conference</a>, 3/8-3/10/2016, Philadelphia</li>
+                  <li><a target="_blank" href="https://www.eventbrite.com/e/metros-2016-annual-conference-registration-19786342483">METRO's 2016 Annual Conference</a>, 1/20/2106, Baruch College</li>
+                  <li>Metro User Experience Special User Group, 10/14/2015, METRO NYC</li>
+                  <li>Fall Convocation, 8/24/2015, FIT</li>
+                  <li>Fire Extinguisher Training, 8/13/2015, FIT</li>
+                  <li>“Getting it Right on Rights and Orphan Works” , 6/18/2015, METRO NYC</li>
+                  <li><a target="_blank" href="https://sunyla2015.wordpress.com/">SUNYLA Annual Conference (SUNY Library Association)</a>, 6/4/2015, SUNY Purchase College</li>
+                  <li><a target="_blank" href="http://www.henrystewartconferences.com/damny2015/">DAM NY Conference (Digital Asset Management)</a>, 5/7/2015, NYC</li>
+                  <li>Various Library Walk & Talks</li>
+                </ul>
+              </div>
+            </div>
+            <div class="sub-section" id="presentations">
+              <h4>Presentations</h4>
+              <div class="entry">
+                <ul>
+                  <li><a target="_blank" href="http://sched.co/CdLh">"Content Management with MDID and Other Integrated Systems"</a> (Presenting as part of a panel with my presentation on SPARC Digital), VRA Conference, Philadelphia, 3/27/2018</li>
+                  <li>Library Walk & Talk: SPARC Digital, 9/28/2017</li>
+                  <li>Presentation on New Version of FITDIL for Library Director, 11/22/2016</li>
+                  <li>Library Walk & Talk: Archive On Demand (and other digital initiatives), 3/31/2016</li>
+                </ul>
+              </div>
+            </div>
+            <div class="sub-section">
+              <h4>Professional Contributions</h4>
+              <p>In the spirit Open Source and Open Access, I publish all the code for the <a target="_blank" href="https://github.com/fitnycdigitalinitiatives">digital projects</a> I have contributed to on <a target="_blank" href="https://github.com">Github</a>. Github is platform that hosts code repositories for millions of users, and facillitates sharing, collaboration, and reuse of Open Source projects. As I have used the code of other developers to bring projects to fruition, so others can do the same with my contributions.</p>
+            </div>
+          </div>
+          <div class="section" id="future">
+            <h3>Future Goals</h3>
+            <p class="lead">Across all of my duties as a faculty member at FIT and my professional activities as a librarian, I am constantly exposed to new technologies and developments in the profession that may be of great benefit to the FIT Library. To this end, implementing new digital initiatives requires balancing the necessity and feasibility of each project. But because necessity and feasibility change over time, I feel it is important to keep a set of goals that includes projects that are immediate and acheiveble and also those that are less realizable. In addition to changing context, my own development as a professional, as well as the colleagues that I have collaborated with, continue to open the door to new initiatives that once seemed out of reach.</p>
+            <ul>
+              <li>
+                Implement a digital repository to manage and preserve the library's digital assets
+              </li>
+              <li>
+                Position the Library as a resource for Digital Humanities Projects at the College
+              </li>
+              <li>
+                Integrate Archive on Demand with Solr
+              </li>
+              <li>
+                Develop an online exhibition for Historical Forecasts
+              </li>
+              <li>
+                Scale up digitization of archival videos for Archive on Demand
+              </li>
+              <li>
+                Redesign LibGuides
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="pt-5 pb-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 mb-4 mb-sm-0 small">
+            <p>
+              This online portfolio was compiled as part of my application for Certificate of Continuous Employment to the Tenure & Promotion Committee at FIT in 2018. If you have any questions or have any trouble acccessing any of the resources linked to on this page, please do not hesitate to contact me.
+            </p>
+            <address>
+              Joseph Anderson</br>
+              Fashion Institute of Technology</br>
+              Seventh Avenue at 27th Street, Room E619</br>
+              New York, New York  10001</br>
+              <a href="mailto:joseph_anderson@fitnyc.edu">joseph_anderson@fitnyc.edu</a></br>
+              212.217.4359</br></br>
+            </address>
+          </div>
+          <div class="col-sm-4 text-center">
+            <a target="blank" href="https://www.fitnyc.edu">
+              <img class="img-fluid" alt="Fashion Institute of Technology - State University of New York" src="images/FITSUNY1_blklarge.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>
