@@ -32,17 +32,7 @@ body {
 #splash.jumbotron .container .row {
   height: 100%;
 }
-#splash.jumbotron h1 {
-  background-image: linear-gradient(
-	      rgba(255, 255, 255, 0.85),
-	      rgba(255, 255, 255, 0.85)
-	    ), url('images/fit_logo.png');
-  background-size: auto 45%;
-  background-repeat: no-repeat;
-  background-position: left center;
-  margin-left: -7%;
-  padding-left: 7%;
-}
+
 #overhang.jumbotron {
   padding: 0;
 }
