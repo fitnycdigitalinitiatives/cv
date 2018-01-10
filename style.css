@@ -51,6 +51,9 @@ body {
 .jumbotron .display-3 {
   font-size: 1.3rem;
 }
+main h2, main h3, main h4 {
+  margin-top: 1rem;
+}
 .section {
   margin-bottom: 3rem;
 }
