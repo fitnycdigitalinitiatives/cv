@@ -22,11 +22,13 @@
 #splash.jumbotron .container .row {
   height: 100%;
 }
-
-#overhang.jumbotron {
+#introduction:target {
+  position: relative;
+}
+#introduction.jumbotron {
   padding: 0;
 }
-#overhang.jumbotron img {
+#introduction.jumbotron img {
   max-height: 35vh;
 }
 #splash .btn-arrow {
